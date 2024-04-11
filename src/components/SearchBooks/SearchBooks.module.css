@@ -1,0 +1,66 @@
+/* SearchBooks.module.css */
+
+/* Base styles for all screen sizes */
+.search-container {
+  margin-top: 40px; /* Increased for better visual balance */
+  display: flex; /* Create a flexbox for search form alignment */
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-form {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 15px 20px; /* Increased for better visual appeal */
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Increased for a softer look */
+  margin-right: 15px;
+  width: 100%; /* Ensure input takes full width */
+}
+
+.search-form button {
+  padding: 15px 30px; /* Increased for better visual appeal */
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Increased for a softer look */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Add a smoother hover effect */
+}
+
+.search-form button:hover {
+  background-color: #0062cc; /* Slightly darker hover color */
+}
+
+.error {
+  color: #d9534f; /* More visually appealing error color */
+  margin-bottom: 15px; /* Add some spacing for better readability */
+}
+
+/* Media queries for responsiveness */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* You can adjust spacing and font sizes for smaller screens as needed */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Adjust styles for medium devices if necessary, consider a horizontal layout for the form */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Adjust styles for large devices if necessary */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjust styles for extra large devices if necessary */
+}

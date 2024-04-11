@@ -1,0 +1,85 @@
+/* BookList.module.css */
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px auto 80px auto;
+  width: 80%;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  width: calc(33% - 40px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+  margin-bottom: 20px;
+}
+
+.book-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.book-details {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+.book-details h2 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.book-details p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+  .book-details-content {
+    /* Adjust styles as needed for this breakpoint */
+  }
+}
+
+@media (max-width: 992px) {
+  .book-details-content {
+    /* Adjust styles as needed for this breakpoint */
+  }
+}
+
+@media (max-width: 768px) {
+  .book-details-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .book-details-content {
+    /* Adjust styles as needed for this breakpoint */
+  }
+}
+
+/* Additional Breakpoints (optional) */
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+}
