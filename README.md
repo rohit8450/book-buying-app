@@ -20,7 +20,7 @@ This is a simple web application for searching and displaying books using React.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Start the development server using `npm start`.
-5. Open [http://localhost:3000/search](http://localhost:3000) in your browser to view the app.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
 ## Folder Structure
 

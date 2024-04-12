@@ -45,7 +45,7 @@ const SearchBooks = () => {
         {/* Use module CSS class */}
         <input
           type="text"
-          placeholder="Enter starting letter"
+          placeholder="Enter author name.."
           value={letter}
           onChange={(e) => setLetter(e.target.value)}
         />
